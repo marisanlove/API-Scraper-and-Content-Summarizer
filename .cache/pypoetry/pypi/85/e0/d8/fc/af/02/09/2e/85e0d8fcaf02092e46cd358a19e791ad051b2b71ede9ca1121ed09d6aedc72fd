@@ -1,0 +1,1 @@
+9999999999{"name": "Flask-Ext", "version": "0.1", "summary": "Extensions of Flask", "platform": "any", "requires_dist": ["Flask"], "requires_python": "", "files": [], "_cache_version": "1.0.0"}

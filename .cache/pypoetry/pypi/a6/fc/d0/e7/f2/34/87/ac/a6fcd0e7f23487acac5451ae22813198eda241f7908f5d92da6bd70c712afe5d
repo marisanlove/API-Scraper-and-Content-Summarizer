@@ -1,0 +1,1 @@
+9999999999{"name": "Flask-APScheduler", "version": "1.12.4", "summary": "Adds APScheduler support to Flask", "platform": null, "requires_dist": ["flask>=0.10.1", "apscheduler<4.0.0,>=3.2.0", "python-dateutil>=2.4.2"], "requires_python": null, "files": [], "_cache_version": "1.0.0"}

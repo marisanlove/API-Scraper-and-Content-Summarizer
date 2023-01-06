@@ -1,0 +1,1 @@
+9999999999{"name": "Flask-Cache2", "version": "0.13.1", "summary": "Adds cache support to your Flask application", "platform": "any", "requires_dist": ["Flask"], "requires_python": "", "files": [], "_cache_version": "1.0.0"}

@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: PyUpdater
+Version: 3.1.1
+Summary: Python Auto Update Library for Pyinstaller
+Home-page: https://www.pyupdater.org
+Author: JMSwag
+Author-email: johnymoswag@gmail.com
+License: MIT
+Download-URL: https://github.com/JMSwag/PyUpdater/archive/master.zip
+Keywords: PyUpdater Pyinstaller Auto Update AutoUpdate Auto-Update Esky updater4pyi bbfreeze ccfreeze freeze cz_freeze pyupdate
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Description-Content-Type: text/markdown
+Requires-Dist: appdirs (>=1.4.3)
+Requires-Dist: bsdiff4 (==1.1.5)
+Requires-Dist: certifi (>=2019.3.9)
+Requires-Dist: dsdev-utils (>=1.0.4)
+Requires-Dist: ed25519 (<2.0,>=1.5)
+Requires-Dist: pyinstaller (>=3.0)
+Requires-Dist: six (<2.0,>=1.12.0)
+Requires-Dist: stevedore (<2.0,>=1.30.1)
+Requires-Dist: urllib3 (<2.0,>=1.24.1)
+Requires-Dist: pywin32 (==224) ; platform_system == "Windows"
+Provides-Extra: all
+Requires-Dist: PyUpdater-s3-Plugin (>=4.0.5) ; extra == 'all'
+Requires-Dist: PyUpdater-scp-Plugin (>=4.0) ; extra == 'all'
+Provides-Extra: s3
+Requires-Dist: PyUpdater-s3-Plugin (>=4.0.5) ; extra == 's3'
+Provides-Extra: scp
+Requires-Dist: PyUpdater-scp-Plugin (>=4.0) ; extra == 'scp'
+
+[![](https://badge.fury.io/py/PyUpdater.svg)](http://badge.fury.io/py/PyUpdater)
+[![Build Status](https://travis-ci.org/Digital-Sapphire/PyUpdater.svg?branch=master)](https://travis-ci.org/Digital-Sapphire/PyUpdater)
+[![Build status](https://ci.appveyor.com/api/projects/status/gi44o2umiui5sc4i?svg=true)](https://ci.appveyor.com/project/JMSwag/pyupdater-xyiyl)
+[![codecov](https://codecov.io/gh/Digital-Sapphire/PyUpdater/branch/master/graph/badge.svg)](https://codecov.io/gh/JMSwag/PyUpdater)
+
+
+# PyUpdater
+#### An autoupdate framework for pyinstaller that enables simple, secure & efficient shipment of app updates.
+
+#### [Docs](http://www.pyupdater.org) - [Installation](http://www.pyupdater.org/installation) - [Changelog](http://www.pyupdater.org/changelog/) - [License](http://www.pyupdater.org/license/)
+
+
